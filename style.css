@@ -1,0 +1,360 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #191919;
+}
+
+section {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 120px;
+  background: #191919;
+}
+
+section header {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+
+section header #name {
+  color: white;
+  font-weight: normal;
+}
+
+section header .medias {
+  display: flex;
+  gap: 30px;
+  margin-right: 40px;
+  z-index: 2;
+}
+
+section header .medias .media_social {
+  width: 30px;
+}
+
+section main {
+  padding: 50px 100px;
+  position: relative;
+}
+
+section main #title {
+  font-size: 100px;
+  color: white;
+}
+
+section main #title #hr1 {
+  width: 520px;
+  margin-left: 155px;
+  border: 3px solid #0051ff;
+}
+
+section main #text {
+  margin-top: 30px;
+  font-size: 23px;
+  color: rgb(194, 194, 194);
+}
+
+section main #back {
+  width: 500px;
+  height: 500px;
+  background: #2e2e2e;
+  position: absolute;
+  left: 830px;
+  top: -135px;
+}
+
+section main #back figure img {
+  width: 700px;
+  position: absolute;
+  left: -120px;
+  top: 170px;
+}
+
+section main #div3 {
+  width: 700px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  gap: 250px;
+  padding-left: 140px;
+  padding-top: 20px;
+  /* background: red; */
+}
+
+section main .count {
+  width: 250px;
+  height: 38px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+section main .count .count1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0 10px 0;
+}
+
+section main .count .count1 .more_used {
+  color: white;
+  font-size: 25px;
+}
+
+section main .count .count1 img {
+  width: 30px;
+}
+
+section main .count #hr2 {
+  width: 250px;
+  border: 2px solid #0051ff;
+}
+
+section main #div3 #circle {
+  width: 50px;
+  height: 90px;
+  border: 2px solid white;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+section main #div3 #circle #dot {
+  width: 15px;
+  height: 15px;
+  background: white;
+  border-radius: 50%;
+  margin-top: 10px;
+  transition: 1s;
+}
+
+section main #hr3 {
+  margin-top: 50px;
+}
+
+section main #square1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: #0051ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 40px;
+  right: 210px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+section main #square1:hover {
+  transform: translateY(-7px);
+}
+
+section main #square1 img {
+  width: 35px;
+  transform: rotate(90deg);
+}
+
+section main .container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  column-gap: 250px;
+  row-gap: 100px;
+}
+
+section main .container .square {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section main .container .square .title_linguage {
+  color: white;
+  font-size: 30px;
+}
+
+section main .container .square .exp {
+  color: rgb(194, 194, 194);
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+section main #section1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+
+section main #section1 #projects {
+  color: white;
+  font-size: 70px;
+}
+
+section main .container2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-left: 50px;
+  column-gap: 90px;
+  row-gap: 100px;
+}
+
+section main .container2 .site {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 330px;
+}
+
+section main .container2 .site img {
+  width: 60px;
+  margin-bottom: 20px;
+}
+
+section main .container2 .site .name_site {
+  color: white;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+section main .container2 .site .text2 {
+  color: rgb(194, 194, 194);
+  font-size: 18px;
+}
+
+section main .container2 .site a {
+  width: 150px;
+}
+
+section main .container2 .site a .visit {
+  width: inherit;
+  height: 45px;
+  font-size: 18px;
+  color: white;
+  background: #0051ff;
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+section main .container2 .site .visit:hover {
+  background: #0042cf;
+}
+
+footer {
+  width: 100%;
+  background: #131313;
+  margin-top: 70px;
+  color: white;
+}
+
+footer #contacts {
+  font-size: 70px;
+  padding: 70px 200px;
+}
+
+footer #block_rodape {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  /* background: red; */
+}
+
+footer #block_rodape #conversion {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+footer #block_rodape #conversion #input_name p {
+  font-size: 23px;
+  color: #959595;
+  margin: 0 0 5px 25px;
+}
+
+footer #block_rodape #conversion #input_name #name {
+  width: 500px;
+  height: 45px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+footer #block_rodape #conversion #input_email p {
+  font-size: 23px;
+  color: #959595;
+  margin: 20px 0 5px 25px;
+}
+
+footer #block_rodape #conversion #input_email #email   {
+  width: 500px;
+  height: 45px;
+  border: none;
+  border-bottom: 2px solid white;
+  background: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+footer #block_rodape #conversion textarea {
+  height: 250px;
+  padding: 10px;
+  font-size: 17px;
+  outline: none;
+  border-radius: 5px;
+}
+
+footer #block_rodape #conversion a {
+  width: 150px;
+}
+
+footer #block_rodape #conversion a #button_send {
+  width: inherit;
+  height: 45px;
+  font-size: 18px;
+  color: white;
+  background: #0051ff;
+  border: none;
+  border-radius: 5px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+footer #block_rodape #conversion a #button_send:hover {
+  box-shadow: 0 0 20px #0051ff;
+}
+
+footer #text_footer {
+  padding: 10px 0 10px 0;
+  text-align: center;
+}

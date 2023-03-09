@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="music-note">
+    <path d="M0 0L16 0L16 16L0 16L0 0Z" id="Background" fill="#FFFFFF" fill-opacity="0" fill-rule="evenodd" stroke="none" />
+    <path d="M9 13C9 14.105 7.88 15 6.5 15C5.12 15 4 14.105 4 13C4 11.895 5.12 11 6.5 11C7.88 11 9 11.895 9 13L9 13Z" id="Shape" fill="#FFFFFF" stroke="none" />
+    <path d="M9 3L9 13L8 13L8 3L9 3L9 3Z" id="Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    <path d="M8 2.82C8.00023 2.34362 8.33664 1.93347 8.80389 1.84002L11.804 1.24C12.0977 1.1813 12.4022 1.25731 12.6338 1.44711C12.8654 1.63691 12.9998 1.92053 13 2.22L13 4L8 5L8 2.82L8 2.82Z" id="Shape" fill="#FFFFFF" stroke="none" />
+  </g>
+</svg>
